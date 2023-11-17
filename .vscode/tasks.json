@@ -1,0 +1,25 @@
+// Sass configuration
+{
+    "version": "2.0.0",
+    "command": "node-sass",
+    "args": [
+        "styles.scss",
+        "styles.css"
+    ],
+    "tasks": [
+        {
+            "label": "node-sass",
+            "type": "shell",
+            "command": "node-sass",
+            "args": [
+                "styles.scss",
+                "styles.css"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "-id": "build",
+                "isDefault": false
+            }
+        }
+    ]
+}
